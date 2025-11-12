@@ -1,0 +1,18 @@
+# Ignore frontend and other non-python files for language stats
+*.css linguist-detectable=false
+*.scss linguist-detectable=false
+*.less linguist-detectable=false
+*.html linguist-detectable=false
+*.htm linguist-detectable=false
+*.js linguist-detectable=false
+*.jsx linguist-detectable=false
+*.ts linguist-detectable=false
+*.tsx linguist-detectable=false
+*.png linguist-vendored=true
+*.jpg linguist-vendored=true
+*.jpeg linguist-vendored=true
+*.gif linguist-vendored=true
+*.svg linguist-vendored=true
+
+# Force-recognize python files (optional but helpful)
+*.py linguist-language=Python
